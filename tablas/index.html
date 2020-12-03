@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    
+    <table style="border: 2px solid green; margin: 100px; margin-bottom: 100px; margin-left: 500px;"> <!--Bordes de la tabla y margenes de la tabla-->
+        
+        <caption>Horario escolar</caption>
+        <thead><!--Engloba la cabecera-->
+
+        <tr> <!--Filas-->
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th> <!--Columnas-->
+        </tr>
+        </thead>
+        <body> <!--cuerpo de la tabla-->
+        <tr>
+            <th colspan="2" style="text-align: center;">1-2</th> <!--Colspan une casillas y se le indica las casillas que coge las columnas-->
+            
+            <th rowspan="2" style="text-align: center;">3-6</th> <!--Rowspan une casillas de las filas-->
+        </tr>
+        <tr>
+                <td>
+                    <table style="border: solid green ;">
+                        <caption>Calendario</caption>
+                        <thead>
+                                <tr>
+                                    <th>L</th>
+                                    <th>M</th>
+                                    <th>X</th>
+                                </tr>
+                        </thead>
+                        <body>
+                                <tr>
+                                    <th>11</th>
+                                    <th>12</th>
+                                    <th>13</th>
+                                </tr>
+                        </body>
+                    </table>
+
+
+            <th>4</th>
+            <th>5</th>
+            
+        </tr>
+        </body>
+
+        <tfoot> <!--Pie de tabla-->
+            <tr>
+                <th>5</th>
+                <th>7</th>
+                <th>9</th>
+            </tr>
+
+        </tfoot>
+
+
+
+
+
+    </table>
+
+</body>
+</html>
